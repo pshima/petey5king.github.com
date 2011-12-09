@@ -14,16 +14,17 @@ date: November 29, 2011
 <p>
   <strong>Ghostbuster</strong>
 </p>
-
-- Quit Terminal
-- Go to Finder
- * Option - Go Menu - Library
- * Open "Saved Application State"
- * Open com.apple.Terminal.savedState
- * Delete all files
- * CMD I
- * Check the "Locked" checkbox
- * Open Terminal
- * Hooray. No more ghosts.
-
-
+{% highlight bash %}
+    Quit Terminal
+    Go to Finder
+    Option 
+    Go Menu 
+    Library
+    Open "Saved Application State"
+    Open com.apple.Terminal.savedState
+    Delete all files
+    CMD I
+    Check the "Locked" checkbox
+    Open Terminal
+    Hooray. No more ghosts.
+{% endhighlight %}
