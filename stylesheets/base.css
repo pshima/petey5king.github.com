@@ -332,7 +332,9 @@
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
 
-  .backdrop {
+  .highlight {
+  	padding: 0.5em;
+		margin: 0.5em;
   	background-color: #F6F6F6;
 		border: 1px solid #DDD;
   }
