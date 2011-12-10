@@ -3,11 +3,14 @@ layout: default
 title: Foggy Out Here
 ---
 
-{{ page.title }} - {{ page.date | date_to_long_string}}
+<h4>{{ page.title }} - {{ page.date | date_to_long_string}}</h4>
 
 <hr>
-
+<p>
 Recently been looking at the ruby gem <a href="https://github.com/geemus/fog">fog</a> to scale up with <a href="http://www.bluebox.net">Blue Box</a>.  Started out with Jesse Proudman's <a href="https://gist.github.com/873067">autoscale gist</a> and then started looking at <a href="https://github.com/opscode/knife-bluebox">knife-bluebox</a>. These along with presentation like <a href="http://pivotallabs.com/talks/131-demystifying-autoscale-the-tale-of-an-api-mashup">this</a> make the cloud life more and more promising from day to day.  Jumping on this bandwagon and implementing my own new relic checks for scaling I quickly jumped into a knife and dropped some of my code in to work with the BlueBox functionality within.  I learned one obvious and important thing in doing this: <b>Things move rapidly!</b>  Either I am too new to ruby or these resources are already out of date or too beta to use.  After hacking some of the knife code I was able to get an instance booting, but despite passing the same hash vars into the server creation I can't login to the instance.  A quick support chat and my ssh key isnt being passed.  Is it a misunderstanding of fog + missing a bootstrap?  Is it a bug or outdated code?  I was never one for reinventing the wheel but sometimes DIY is as good as an aspirin and call me in the morning.     
-
+</p>
+<p>
+<strong>Update:</strong> If you've got the time build it yourself and open source it!
+</p>
 
 

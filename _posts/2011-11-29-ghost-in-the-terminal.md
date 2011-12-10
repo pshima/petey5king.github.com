@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Ghost in the Terminal
-date: November 29, 2011
 ---
 
-{{ page.title }} - {{ page.date | date_to_long_string}}
+<h4>{{ page.title }} - {{ page.date | date_to_long_string}}</h4>
 
 <hr>
 
