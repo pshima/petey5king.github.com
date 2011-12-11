@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Deploying with Capistrano from Team City
 ---
 

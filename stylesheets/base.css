@@ -338,3 +338,13 @@
   	background-color: #F6F6F6;
 		border: 1px solid #DDD;
   }
+
+  .lownav {
+		color: #181818;
+		font-family: "Georgia", "Times New Roman", Helvetica, Arial, sans-serif;
+		font-weight: normal; 
+		font-size: 12px; line-height: 14px; margin-bottom: 5px;
+		text-align: right
+	}
+
+

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Ghost in the Terminal
 ---
 
