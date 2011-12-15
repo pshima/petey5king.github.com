@@ -134,7 +134,7 @@ Don't just follow this post.  Take a look at the unicorn <a href="http://unicorn
 
 <h4>Monitoring</h4>
 Now that you've got unicorn configured let's look at monitoring.  Monitoring unicorn for me is about 2 things, alerting and service management.  
-I want to be alerted when their is an issue, but only when I need to take action and I want the service to fix itself or run maintenance when 
+I want to be alerted when there is an issue, but only when I need to take action and I want the service to fix itself or run maintenance when 
 needed.
 
 <p />
