@@ -24,7 +24,7 @@ the ins and outs, but let's talk about some of the configuration options in <a h
 
 <strong>worker_processes (rails_env == 'production' ? 16 : 4)</strong>
 
-<br />
+<p />
 
 worker_processes are the amount of forked workers that will run on each unicorn instance.  This can make or break your unicorn install. 
 16 will actually spawn 17 ruby instances, 1 being the master process.  The master process doesn't actually do any work, it's responsible 
@@ -32,11 +32,11 @@ for managing the workers and is a base for the forked processes.  Most articles 
 your system, this is generally a safe bet.  In the day and age of the cloud and virtualization this isn't always correct.  Every app is 
 different but you wan't to match up values against your cpu utilization and memory usage.
 
-<br />
+<p />
 
 cpu
 
-<br />
+<p />
 
 If you do not have any monitoring tools the easiest way to measure current cpu usage is through the top command.  Load average is a 
 pretty standard way to view cpu utilization but ensure you are measuring against the <a href="http://en.wikipedia.org/wiki/Load_(computing)"> 
@@ -45,11 +45,11 @@ and <a href="http://blog.thinrhino.net.in/cpu-steal-time">%steal(st).</a>  Steal
 terms its cpu your virtualized server had to wait for to be allocated to an actual physical processor.  The timing on this is based on
 your hypervisor.
 
-<br />
+<p />
 
 memory
 
-<br />
+<p />
 
 Each app has a different memory footprint.  You want to align your memory usage to the actual memory allocated to your machine.  In most
 environments your machine is configured with physical memory and swap.  You need to look at your OS footprint and look at how much actual 
@@ -60,7 +60,7 @@ and will kill the performance of your server.  Using monitoring which is in deta
 
 <strong>preload_app true</strong>
 
-<br />
+<p />
 
 This is a very important setting of unicorn.  With this set to true the master process will boot and the workers will be forked when the 
 master process has booted.  With this in place your master process may take a few seconds to boot but any subsequent workers will be nearly 
@@ -70,7 +70,7 @@ instant to bring online.  Through signals unicorn workers can be added and remov
 
 <strong>timeout 30</strong>
 
-<br />
+<p />
 
 This setting is related to long running processes.  The default value is 60, which in most environments should be ok but decreasing this to 30 
 helps keep your long running processes from tying up your workers.  30 seconds is a long time for a normal request so we want to kill these 
@@ -80,7 +80,7 @@ before they extend any longer.  If you have intentional long running processes y
 
 <strong>listen /path/to/socket, :backlog => 2048</strong>
 
-<br />
+<p />
 
 This setting is how your upstream connections are setup.  You can listen on unix sockets or tcp/ip.  Sockets are great as the requests drop in 
 to a queue and workers just grab what they can when they are free.  This ensures a single worker is never overloaded with requests while other
@@ -94,7 +94,8 @@ configured proper failover.  1024 is the default value.
 
 <strong>after_fork, before_fork</strong>
 
-<br />
+<p />
+
 These are the tasks that run before and after the fork of the worker processes from the master.  These will be specific to your environment.
 
 <p />
@@ -102,13 +103,11 @@ These are the tasks that run before and after the fork of the worker processes f
 <h5>Other Settings</h5>
 Some other settings that you may want to consider
 
-<br />
-
 <p />
 
 <strong>pid /path/to/pid/file.pid</strong>
 
-<br />
+<p />
 
 pid file for unicorn. This can be important for monitoring the unicorn process.
 
@@ -121,7 +120,7 @@ working directory for newly spawned instances.  Should be set to your app root.
 
 <strong>stderr_path and stdout_path</strong>
 
-<br />
+<p />
 
 paths to log files.  For troubleshooting and or log watching it's good to have unicorn in seperate log files.
 
@@ -180,28 +179,3 @@ slight modication to this to include the unicorn error log and I drop this into 
 
 <p />
 
-<p />
-
-<p />
-
-<p />
-
-<p />
-
-<p />
-
-<p />
-
-<p />
-
-<p />
-
-<p />
-
-<p />
-
-<p />
-
-<p />
-
-<p />
