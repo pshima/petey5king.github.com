@@ -87,7 +87,7 @@ The ability to look into the codebase and understand it quickly the fundamentals
 
 Along with the look into the codebase a lot of the chef recipes do not push on infrastructure best practice.  This is also mentioned above in the Doing It Yourself section but it's important to mention it here as it is about focus.  An example of this would be redis.  Majority of cookbooks do not seem to account for redundancy or a larger distributed architecture, or in smaller cases a password.  Why?  These probably are not needed in most cases.  Providing ease of access to complex configurations is a HUGE advantage chef has over other products, but also a very large undertaking.  Some software pieces have thousands of configurations and providing easy access to them all is probably not realistic.  Opscode's ability to harness and build exceptionally great cookbooks, trumping all existing community cookbooks could be a big key to their success in 2012.  My feeling is that I would definitely prefer drastic improvements to existing cookbooks rather than a more diverse set of cookbooks.  Not to be misunderstood here, the existing cookbooks are good but it's not farfetched to think a new community cookbook could come out that trumps it.  The opscode provided cookbooks must become the standard and must hands down be the best available across the community.
 
-
+<!---
 Existing Enterprise IT tools
 ====================================
 
@@ -109,5 +109,7 @@ Aspera itself requires a bit of network configuration across your WAN and I thin
 
 
 This post isn't done but will have to do for now.  ABS
+
+--->
 
 
