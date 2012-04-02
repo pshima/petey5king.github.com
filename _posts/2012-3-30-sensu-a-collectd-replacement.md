@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Sensu - As A Collectd Replacement
+title: Sensu - As A Collectd Alternative
 ---
 
-Sensu - As A Collectd Replacement
+Sensu - As A Collectd Alternative
 ============
 
 Preface
