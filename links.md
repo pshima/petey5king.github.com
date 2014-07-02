@@ -52,7 +52,7 @@ Timings
 
 > Read this article.  Read into topics like - why the people that leave or get fired ARE your culture.  Culture fit TRUMPS experience, but hire capable people.  Be relevant.  Motivate people out of joy, not fear.  Read in to Dan Pinks(above) how to motivate people.  Mini culture will form, dont fight it, embrace it.  Failing helps success(in some ways).  A recipe for culture.
 
-***[What Google Taught Me About Scaling Engineering Teams](http://www.theeffectiveengineer.com/blog/what-i-learned-from-googles-engineering-culture)**
+**[What Google Taught Me About Scaling Engineering Teams](http://www.theeffectiveengineer.com/blog/what-i-learned-from-googles-engineering-culture)**
 **[Blog] - 15 Minutes. April 9th, 2014**
 
 > What seems like sort of a junior article talks about some good points about culture at google as a developer.  Invest in tools and systems to increase efficiency, Invest in onboarding, Code Hygiene, Data Wins, Testing.
