@@ -12,6 +12,7 @@ Opinions are my own and do not reflect that of my employer.  I am a systems engi
     * Drive: The surprising truth about what motivates us
     * Chris Fry on the Power of Stable Teams
     * Creating Culture
+    * What Google Taught Me About Scaling Engineering Teams
 * ### [Leadership](#Leadership)
     * Be a Manager
     * Empowering Developers Through Infrastructure
