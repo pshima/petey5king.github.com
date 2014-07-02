@@ -28,7 +28,8 @@ you are using capistrano to deploy and nginx as your front end this might help.
 First set this up in your deploy.rb or if using multistage you can drop it in the staged .rb file.
 The below sets up an oldassets directory which will now contain the assets from the last release and 
 runs it after it updates the new release dir with the new code.
-<script src="https://gist.github.com/1458915.js"> </script>
+
+{% gist 1458915 %}
 
 <p />
 
@@ -39,7 +40,8 @@ already doing caching for your assets then you may already have the location blo
 setup it will check the uri, if it doesn't exist it checks the /oldassets dir, and if neither drops a 
 404.  This means when rails generates the assets, nginx will start serving the new ones and until then 
 you've got assets from the old release.
-<script src="https://gist.github.com/1458969.js"> </script>
+
+{% gist 1458969 %}
 
 <p />
 
