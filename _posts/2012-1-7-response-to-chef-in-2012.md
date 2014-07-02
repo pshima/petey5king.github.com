@@ -87,29 +87,4 @@ The ability to look into the codebase and understand it quickly the fundamentals
 
 Along with the look into the codebase a lot of the chef recipes do not push on infrastructure best practice.  This is also mentioned above in the Doing It Yourself section but it's important to mention it here as it is about focus.  An example of this would be redis.  Majority of cookbooks do not seem to account for redundancy or a larger distributed architecture, or in smaller cases a password.  Why?  These probably are not needed in most cases.  Providing ease of access to complex configurations is a HUGE advantage chef has over other products, but also a very large undertaking.  Some software pieces have thousands of configurations and providing easy access to them all is probably not realistic.  Opscode's ability to harness and build exceptionally great cookbooks, trumping all existing community cookbooks could be a big key to their success in 2012.  My feeling is that I would definitely prefer drastic improvements to existing cookbooks rather than a more diverse set of cookbooks.  Not to be misunderstood here, the existing cookbooks are good but it's not farfetched to think a new community cookbook could come out that trumps it.  The opscode provided cookbooks must become the standard and must hands down be the best available across the community.
 
-<!---
-Existing Enterprise IT tools
-====================================
-
-This section is about non cloud setups ONLY.  Don't think it would really apply to cloud.  Auto configuration/setup on the desktop is a huge point at every large corp.
-
-Competition among other enterprise tools is pretty fierce in this but chef really has a lot going for it.  I've been using Altriris for about 10 years and it has some of the same goals, but Altiris along with many of the enterprise configuration tools are weighted down with their size and growth.  As they get bigger or sold their once possibly fast moving revisions and features get slowed down to the point where having support for the latest technologies isn't an option they are simply struggling to keep up or rewriting to what feels like infinity.  With the release of Windows 7 Altiris struggled to deliver and upon release of their next software revision it meant horrible upgrade paths and critical missing features.  Before Altiris' acquisition by Symantec they had a good community going called Altiris Juice and there was a lot of buzz going around here and I get the same feeling with the opscode community but to a much greater degree.  After the sale Altiris Juice fell off the map and Altiris itself seemed to get mixed in with the hundred other products on Symantecs website.  Eventually migrating away from Altiris seemed like the right move.
-
-Altiris was meant to be the solution for all your infrastructure needs, from OS installation to OS configuration, imaging, licensing, and inventory.  With as much use as I had with Altiris I never felt it to be as solid of a tool as chef.  The core of chef's technology feels rock solid.  Chef's major advantage here is its simplicity.  I've just been talking about how advanced and complex chef is but I feel like chef's workflow is a great deal simpler than its competitors, and combined with its flexibility it outdoes the competition.  Again using Altiris as an example setup can be a nightmare, then when you get into licensing and modules things get even more complicated.  Chef with a hosted option, and with a free and open source server this really has an edge over other options.  I have not yet used chef in a WAN environment or across hundreds of servers, but it's certainly something I hope to check out in the future.
-
-With chef and desktops specifically eliminating other tools isn't really an option.  You still need to power the thing on and get the OS and ruby on there.  PXE chef solo anyone?
-
-Expansion in to enterprise
-=========================
-
-When I try and think of a good partnership for chef the first thing that comes to mind is Aspera.  Aspera is a file transfer tool that uses acceleration.  I used Aspera at my previous job and in a big deployment chef could be infinitely helpful.  A lot of work I had done on Aspera was installing software, editing xml files with variables, installing a perl script with some configs or more.  Bundling chef solo or chef-server or a part of chef server in to their console I feel like would be a big win for both sides.  Aspera is a fairly new company, and can be a drop in replacement for ftp across an organization.  Getting chef as the default install for Aspera could generate more industry exposure and seems to align with a big portion of their customer base.  
-
-Aspera itself requires a bit of network configuration across your WAN and I think this would be another interesting space for chef.  Not much network config across the cloud unless you are in a hybrid but chef for configuring your cisco devices would be pretty wicked.  Maybe the need here is actually too narrow, but moving towards managing infrastructure as code this would be a pretty crucial step outside of the cloud.  Having an ASA autoconfigure groups or rules from a chef search would be pretty awesome.  Network segments as json anyone?
-
-
-
-This post isn't done but will have to do for now.  ABS
-
---->
-
 
