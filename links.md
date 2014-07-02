@@ -8,7 +8,14 @@ title: Mostly Operational
 Opinions are my own and do not reflect that of my employer.  I am a systems engineer gone engineering manager on a quest for zen.  I read a lot online.  Trying to include more than just a subject line.
 
 * ### [Culture](#Culture)
+    * Patty McCord: A Culture of Innovation
+    * Drive: The surprising truth about what motivates us
+    * Chris Fry on the Power of Stable Teams
+    * Creating Culture
 * ### [Leadership](#Leadership)
+    * Be a Manager
+    * Empowering Developers Through Infrastructure
+    * The Five Dysfunctions of a Network
 
 ---
 
