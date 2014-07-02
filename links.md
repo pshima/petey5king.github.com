@@ -16,6 +16,8 @@ Opinions are my own and do not reflect that of my employer.  I am a systems engi
     * Be a Manager
     * Empowering Developers Through Infrastructure
     * The Five Dysfunctions of a Network
+* ### [Scale](#Scale)
+    * Scaling Lessons Learned At Dropbox
 
 ---
 
@@ -69,3 +71,12 @@ Timings
 **[Blog] - 5 Minutes. June 12, 2014**
 
 > If you have read The [Five Dysfunctions of a Team](http://amzn.com/0470580461) and you work with Networks, consider taking a few minutes to read over this page.  Are these true in your organization?
+
+
+## <a name="Scale"></a>Scale
+
+**[Scaling Lessons Learned At Dropbox](http://eranki.tumblr.com/post/27076431887/scaling-lessons-learned-at-dropbox-part-1)**
+**[Blog] - 15 Minutes.  July 12, 2012**
+
+> An older article from 2012, but still relevant.  Illustrates how important the right metrics are.  Testing is important.  Some basics, like how to use basic shell commands for log analysis.
+
